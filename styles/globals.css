@@ -8,6 +8,9 @@ html {
   @apply text-gray-900
 }
 
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
 .olive-text {
   @apply text-[#96b85d]
 }

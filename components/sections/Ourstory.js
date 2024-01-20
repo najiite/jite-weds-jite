@@ -3,8 +3,8 @@ import Image from "next/image"
 const Ourstory = () => {
   return (
     <div>
-      <div className='grid lg:grid-cols-2'>
-        <div className="bg-[#96b85d] text-[#ebe4e2] p-5">
+      <div className='grid lg:grid-cols-2 text-xl playfair'>
+        <div className="bg-[#96b85d] text-white p-5">
           <h3 className="uppercase text-2xl font-medium">Our Story</h3>
           <div className="font-thin">
             <p className="my-4">My friend's wedding was supposed to be a celebration of love, not a blind date orchestrated by fate, confetti, and a questionable glass of champagne. But there she was, Lydia, radiating sunshine in a bridesmaid's dress and a smile that could launch a thousand ships (or at least steal my heart, apparently).</p>
