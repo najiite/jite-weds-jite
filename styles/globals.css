@@ -15,3 +15,6 @@ html {
 .hover-olive {
   @apply hover:text-[#96b85d]
 }
+.custom-img {
+  background-image: url('https://images.unsplash.com/photo-1580892047528-7dfd384dce65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8');
+}
