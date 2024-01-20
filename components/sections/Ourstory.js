@@ -14,7 +14,7 @@ const Ourstory = () => {
           </div>
         </div>
         <div className=''>
-          <img className="" src='/images/story0.jpg' />
+          <img className="h-screen object-cover" src='/images/story0.jpg' />
         </div>
       </div>
       <div className='grid lg:grid-cols-2'>
@@ -28,7 +28,7 @@ const Ourstory = () => {
           </div>
         </div>
         <div className='lg:order-first'>
-          <img className="h-full" src='/images/story1.jpg' />
+          <img className="h-screen object-cover" src='/images/story1.jpg' />
         </div>
       </div>
     </div>
