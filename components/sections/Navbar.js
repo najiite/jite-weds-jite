@@ -31,10 +31,10 @@ const Navbar = () => {
                 </Link>
                 <ul style={{color: `${textColor}`}} className="hidden sm:flex ">
                     <li className="p-5">
-                        <Link className="hover-olive" href='/'>Save The Date</Link>
+                        <Link className="hover-olive" href='/#date'>Save The Date</Link>
                     </li>
                     <li className="p-5">
-                        <Link className="hover-olive" href='/'>Our Story</Link>
+                        <Link className="hover-olive" href='/#story'>Our Story</Link>
                     </li>
                     <li className="p-5">
                         <Link className="hover-olive" href='/'>Photo Gallery</Link>
@@ -50,10 +50,10 @@ const Navbar = () => {
             <div className={nav ?"sm:hidden absolute top-0 left-0 bottom-0 right-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 text-gray-100": "sm:hidden absolute top-0 left-[-100%] bottom-0 right-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300" }>
                 <ul>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
-                        <Link className="hover-olive" href='/'>Save the date</Link>
+                        <Link className="hover-olive" href='/#date'>Save the date</Link>
                     </li>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
-                        <Link className="hover-olive" href='/#gallery'>our story</Link>
+                        <Link className="hover-olive" href='/#story'>our story</Link>
                     </li>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
                         <Link className="hover-olive" href='/work'>photo Gallery</Link>

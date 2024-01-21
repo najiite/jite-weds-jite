@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Ourstory = () => {
   return (
-    <div className=" text-xl playfair">
+    <div className=" text-xl playfair" id="story">
       <div className='grid lg:grid-cols-2'>
         <div className="bg-[#96b85d] text-white p-5">
           <h3 className="uppercase text-2xl font-medium">Our Story</h3>
