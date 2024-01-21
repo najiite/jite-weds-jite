@@ -24,10 +24,10 @@ const Navbar = () => {
 
   return (
     <div  className={`${color} fixed top-0 left-0 w-full uppercase z-10 ease-in duration-300`}>
-        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4">
+        <div className="max-w-[1920px] m-auto mx-10 flex justify-between items-center p-4">
             <div className="flex justify-between">
                 <Link className="mt-2 mr-16" href='/'>
-                    <h1 style={{color: `${textColor}`}} className="font-bold text-4xl">JiJi2024</h1>
+                    <h1 style={{color: `${textColor}`}} className="font-extrabold normal-case text-5xl">JiJi24</h1>
                 </Link>
                 <ul style={{color: `${textColor}`}} className="hidden sm:flex ">
                     <li className="p-5">
