@@ -1,0 +1,5 @@
+olive = #96b85d
+forest = #3e5942
+taupe = #bba9a0
+blush = #f1c4ba
+cream = #ebe4e2
