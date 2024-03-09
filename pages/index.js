@@ -6,6 +6,7 @@ import Ourstory from "@/components/sections/Ourstory";
 import Photos from "@/components/sections/Photos";
 import Directions from "@/components/sections/Directions";
 import Navbar from "@/components/sections/Navbar";
+import Footer from "@/components/sections/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function Home() {
             <Ourstory />
             <Photos />
             <Directions />
+            <Footer />
           </main>
         </>
   );

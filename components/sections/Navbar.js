@@ -37,12 +37,12 @@ const Navbar = () => {
                         <Link className="hover-olive" href='/#story'>Our Story</Link>
                     </li>
                     <li className="p-5">
-                        <Link className="hover-olive" href='/'>Photo Gallery</Link>
+                        <Link className="hover-olive" href='/#gallery'>Photo Gallery</Link>
                     </li>
                 </ul>
 
             </div>
-            <Link className="p-5 hidden sm:flex hover:text-[#f1c4ba]" href='/work'>Directions <FaMapSigns className="m-1" /></Link>
+            <Link className="p-5 hidden sm:flex hover:text-[#f1c4ba]" href='/#directions'>Directions <FaMapSigns className="m-1" /></Link>
             <div className="sm:hidden block z-10">
                 { nav ? <AiOutlineClose size={20} onClick={HandleNav}  style={{color: `white`}}/> : <AiOutlineMenu size={20}  onClick={HandleNav}  style={{color: `${textColor}`}}/>}
                 
@@ -56,10 +56,10 @@ const Navbar = () => {
                         <Link className="hover-olive" href='/#story'>our story</Link>
                     </li>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
-                        <Link className="hover-olive" href='/work'>photo Gallery</Link>
+                        <Link className="hover-olive" href='/#gallery'>photo Gallery</Link>
                     </li>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
-                        <Link className="hover-olive" href='/contact'>Directions</Link>
+                        <Link className="hover-olive" href='/#directions'>Directions</Link>
                     </li>
                 </ul>
 
