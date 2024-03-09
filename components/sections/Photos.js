@@ -6,7 +6,7 @@ const Photos = () => {
       <h3 className='text-center text-5xl my-10 font-semibold'>Our Gallery</h3>
       <div className='sm:mx-14 mx-5'>
         <div className='sm:flex sm:flex-row gap-2'>
-          <div className='basis-1/3'>
+          <div className='basis-1/3 mb-2'>
               <img className="object-cover" src='/images/gallery/IMG_2638.jpg' />
           </div>
           <div className='basis-2/3'>
