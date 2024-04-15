@@ -9,15 +9,15 @@ const Savethedate = () => {
           </h1>
         </div>
         <div>
-          <Image className="rounded-full mt-5 hover:grayscale" src='/images/pic0.jpg' height={400} width={400} />
+          <Image className="rounded-full mt-5 hover:grayscale" priority={true} src='/images/pic0.jpg' height={400} width={400} />
           <h3 className="text-5xl my-5 text-center">27th</h3>
         </div>
         <div>
-          <Image className="rounded-full object-cover mt-5 hover:grayscale" src='/images/pic1.jpg' height={400} width={400} />
+          <Image className="rounded-full object-cover mt-5 hover:grayscale" priority={true} src='/images/pic1.jpg' height={400} width={400} />
           <h3 className="text-5xl my-5 text-center">april</h3>
         </div>
         <div>
-          <Image className="rounded-full mt-5 hover:grayscale" src='/images/pic2.jpg' height={400} width={400} />
+          <Image className="rounded-full mt-5 hover:grayscale" priority={true} src='/images/pic2.jpg' height={400} width={400} />
           <h3 className="text-5xl my-5 text-center">2024</h3>
         </div>
     </div>

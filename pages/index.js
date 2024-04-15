@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Head from 'next/head'
 import { Inter } from "next/font/google";
 import Savethedate from "@/components/sections/Savethedate";
@@ -7,6 +6,7 @@ import Photos from "@/components/sections/Photos";
 import Directions from "@/components/sections/Directions";
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
+import Share from "@/components/sections/Share";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +21,6 @@ export default function Home() {
             <meta name="robots" content="index, follow" />
             <meta charSet="UTF-8"></meta>
             <link rel="icon" href="/favicon.svg" />
-            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"></link>
-            <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Playfair+Display&display=swap" rel="stylesheet"></link>
 
           </Head>
           <main>
@@ -31,6 +28,7 @@ export default function Home() {
             <Savethedate />
             <Ourstory />
             <Photos />
+            <Share />
             <Directions />
             <Footer />
           </main>
