@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Playfair Display', serif;
   @apply text-gray-900
 }
 

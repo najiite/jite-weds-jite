@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import { FaMapSigns } from "react-icons/fa";
+import { FaMapSigns, FaUpload } from "react-icons/fa";
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const [color, setColor] = useState('transparent')
@@ -42,7 +42,12 @@ const Navbar = () => {
                 </ul>
 
             </div>
-            <Link className="p-5 hidden sm:flex hover:text-[#f1c4ba]" href='/#directions'>Directions <FaMapSigns className="m-1" /></Link>
+            <div className="flex">
+            <Link className="py-5 hidden sm:flex hover:text-[#f1c4ba]" href='/share'>Share your memories <FaUpload className="m-1" /></Link>
+            <p className="py-5 px-2 hidden sm:flex font-extrabold">|</p>
+            <Link className="py-5 hidden sm:flex hover:text-[#f1c4ba]" href='/#directions'>Directions <FaMapSigns className="m-1" /></Link>
+
+            </div>
             <div className="sm:hidden block z-10">
                 { nav ? <AiOutlineClose size={20} onClick={HandleNav}  style={{color: `white`}}/> : <AiOutlineMenu size={20}  onClick={HandleNav}  style={{color: `${textColor}`}}/>}
                 
@@ -57,6 +62,9 @@ const Navbar = () => {
                     </li>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
                         <Link className="hover-olive" href='/#gallery'>photo Gallery</Link>
+                    </li>
+                    <li onClick={HandleNav}  className="p-5 text-4xl">
+                        <Link className="hover-olive" href='/share'>Share your memories</Link>
                     </li>
                     <li onClick={HandleNav}  className="p-5 text-4xl">
                         <Link className="hover-olive" href='/#directions'>Directions</Link>
