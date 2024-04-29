@@ -26,7 +26,7 @@ const Share = () => {
   return (
     <div id='share' className='sm:mx-14 mx-5'>
       <h3 className='text-center text-5xl my-10 font-semibold'>Share Your Memories</h3>
-      <h5 className="text-center my-3 text-lg">Share the beautiful photos you took of us on our day (This feature is in beta mode until the wedding day)</h5>
+      <h5 className="text-center my-3 text-lg">Share the beautiful photos you took of us on our day </h5>
       <div className="grid">
           { loading?  
               <img className="mx-auto scale-50" src="loading.gif" alt="loading gif" />: 
@@ -34,7 +34,7 @@ const Share = () => {
               <form className='mx-auto' >
                   <label className="block text-lg font-medium text-gray-900 dark:text-white" htmlFor="file">Upload photos</label>
                   
-                  <input className="block my-4 w-full text-sm text-black border border-black cursor-pointer bg-gray-50" accept="image/*"  onChange={handleUpload}  id="file" type="file" multiple/>
+                  <input className="block my-4 w-full text-sm text-black border border-black cursor-pointer bg-gray-50" accept="image/*,video/mp4,video/x-m4v,video/*"  onChange={handleUpload}  id="file" type="file" multiple/>
                   
         
               </form>
